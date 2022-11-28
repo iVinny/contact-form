@@ -1,0 +1,112 @@
+.App {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: left;
+  padding-top:  7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  height: 100%;
+  margin: 0;
+  background-size: 100%
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255)
+}
+
+.App-link {
+  color: #fb6661; 
+}
+.App-background-image {
+  background-image: "./imag.jfif";
+  padding: 50px 0 50px 0;
+  height: 100px;
+  background-size: 10% 
+}
+#contact-container{
+    width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    backdrop-filter: grayscale(0.5) opacity(1)
+}
+.contact-info{
+    /* background-image: linear-gradient(to right top, #8b9dc3, #3b5998, #3b5998, #8b9dc3, #8b9dc3); */
+    background-color: #3b5998;
+    margin-right: 30px;
+    border-radius: 15px;
+    flex: 0 1 30%;
+    padding: 30px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-info h4{
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0;
+        color: rgb(226, 238, 248);
+        padding-bottom: 60px;
+ }
+.contact-info p{
+  color: antiquewhite;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+  
+}
+.icon-text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      
+
+    }
+.social-midea{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+    
+span{
+  padding-left: 10px;
+}
+.Form .Label{
+  color: #3b5998;
+  
+}
+
+.btn-flat {
+  background-color: purple;
+  color: white;
+}
+
+.btn-xxl {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
